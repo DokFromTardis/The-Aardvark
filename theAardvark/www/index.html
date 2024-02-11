@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+<script src="https://cdn.jsdelivr.net/npm/nipplejs@latest"></script>
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+<!--  <link rel="manifest" href="site.webmanifest">-->
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div id="welcomeScreen">
+        <p class="welcomeText green">'Commando' is now playing</p>
+      <p class="welcomeText title">Aardvark <br>2024</p>
+        <p class="welcomeText"><p class=" welcomeText green">Developer:</p><p class="welcomeText blue"> Ivan Labaznikov</p></p>
+        <p class="welcomeText green">Music:<br> -</p>
+        <p class="welcomeText green">Publisher:</p><p class="welcomeText blue"> Ivan Labaznikov</p>
+    </div>
+    <audio id="backgroundMusic" loop autoplay>
+        <source src="media/audio/Commando.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+  <div id="joystickContainer">
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
