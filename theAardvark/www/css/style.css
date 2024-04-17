@@ -1,0 +1,30 @@
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+           font-family: 'VT323', monospace;
+        }
+
+        #gameCanvas {
+            display: none;
+        }
+
+        .welcomeText {
+            font-size: clamp(1rem, 5vw, 3rem);
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .title {
+            color: #ffffff; /* Gold color */
+        }
+        .green{
+          color: #5d9d84;
+        }
+        .blue {
+            color: #4e66a9; /* Green color */
+        }
